@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.591) url("img/gettyimages-609801990_1200xx2121-1193-0-111.jpg");
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    /* border: 2px solid white; */
+    background-blend-mode:darken;
+    min-height: 100vh;
+
+}
+h1{
+    text-align: center;
+}
+
+.container {
+    color: white;
+    background-color: #00000096;
+    padding: 35px;
+    border: 1px solid white;
+    min-height: 60vh;
+    min-width: 22vw;
+    border-radius: 10px ;
+}
+
+form {
+    margin: 2rem 1rem 0.5rem 1rem;
+}
+
+form input,select{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+#Pamount {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.amount input {
+    padding: 6px 6px;
+    font-size: 15px;
+    width: 97%;
+}
+.dropdown-container {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.select-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 6px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.select-container img {
+    display: inline-block;
+    width: 3rem;
+}
+
+.dropdown-container p {
+    margin-bottom: 5px;
+}
+.dropdown-container i {
+    margin-top: 20px;
+}
+
+.msg {
+    margin: 25px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+form button {
+    height: 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 0 17px;
+    margin-left: 17%;
+}
+
+#copyright
+{
+   
+    font-size: 13px;
+    margin-top: 25px;
+    margin-left: 30%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.493);
+  display: inline-block;
+    color: rgba(255, 255, 255, 0.474);
+}
